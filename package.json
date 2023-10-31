@@ -1,0 +1,23 @@
+{
+  "name": "dbms-restaurant-management-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mahesh-patil20/DBMS-Mini_Project.git~.git"
+  },
+  "author": "Mahesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahesh-patil20/DBMS-Mini_Project.git~/issues"
+  },
+  "homepage": "https://github.com/mahesh-patil20/DBMS-Mini_Project.git~#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}

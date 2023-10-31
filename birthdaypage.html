@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Booking</title>
+    <link rel="stylesheet" href="./birthdaypagestyle.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&family=Calligraffitti&family=Creepster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/logo.png" />
+  </head>
+  <body>
+    <div class="bg">
+      <div class="section1">
+        <div class="container">
+          <div class="heading">
+            <h1>Birthday Bookings</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="section2">
+        <div class="container">
+          <div class="section2flex">
+            <div class="section2txt">
+              <h2 class="section2txthead">Area Booking</h2>
+              <div class="section2list">
+                <li class="listitemsec2">
+                  Separate Private Area for 2hrs/3hrs.
+                </li>
+                <li class="listitemsec2">
+                  Normal area decoration (20-30 Ballons, ribbons, birthday
+                  banner)
+                </li>
+                <li class="listitemsec2">
+                  Music System access for birthday songs
+                </li>
+                <li class="listitemsec2">Complimentary 1/2 kg Brownie Cake</li>
+              </div>
+            </div>
+            <div class="section2imgdiv">
+              <img
+                src="./images2/birthdayhall.webp"
+                alt=""
+                class="section2img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section3">
+        <div class="container">
+            <div class="section3txt">
+                <div class="section3left">
+              <div class="section2txthead">TERMS AND CONDITIONS</div>
+              <div class="section3list">
+                <ul>
+                  <li>Minimum people for total booking is 5+ people.</li>
+                  <li>
+                    No Spoiling the area by fog spray, party bomb or cake.
+                  </li>
+                  <li>No breakage or damaging utensils.</li>
+                  <li>
+                    There will be charges if there is any damage to restaurant
+                    property.
+                  </li>
+                  <li>No outside food allowed inside the patry hall.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="section3right">
+                <div class="sec3circle">
+                    <div class="cost">
+                        <h2>2 hrs | ₹3,000</h2>
+                        <h2>3 hrs | ₹4,300</h2>
+                    </div>
+                <div class="bookbutton">
+                    <button class="btn">Book Now</button>
+                </div>
+            </div>
+            </div>
+          </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="section4">
+        <div class="formbox1">
+            
+            <form action="https://www.google.com/">
+            <div class="form">
+              <h2>Booking</h2>
+              <div class="formelement">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter Full Name" required/>
+              </div>
+              <div class="formelement">
+                <label for="Contact">Contact No.</label>
+                <input type="tel" id="contact" placeholder="Enter Mobile No." required/>
+              </div>
+              <div class="formelement">
+                <label for="Email">Email</label>
+                <input type="email" id="email" placeholder="Enter Email" required/>
+              </div>
+
+              <div class="formelement">
+                <label for="date">Date</label>
+                <input type="date" id="date" placeholder="Enter Date" required/>
+              </div>
+
+              <div class="formelement">
+                <label for="timing">Time</label>
+                <input type="time" id="appt" name="appt"
+                        min="18:00" max="23:00" required>
+                <!-- <input
+                  type="password"
+                  id="password"
+                  placeholder="Enter Password"
+                  required
+                /> -->
+              </div>
+              <div class="formelement formflex">
+                  <label for="Email"> Duration: </label>
+                  <div class="radioinput">
+                  <input type="radio" id="duration1" value="2hr"  name="durationfor" onclick="displaying()"/>
+                  <label for="duration1">2 hr</label>
+                  <input type="radio" id="duration2" value="3hr"  name="durationfor" onclick="displaying()"/>
+                  <label for="duration1">3 hr</label>
+                    </div>
+                </div>
+                <div class="formelement formending" id="btnelement">
+                    <button class="btn">BOOK NOW</button>
+                    <!-- <div id="finalcost">"Cost"</div> -->
+                </div>
+            </div>
+          </form>
+          </div>
+      </div>
+    
+    </div>
+
+
+    <script src="./birthdaypagescript.js"></script>
+  </body>
+</html>
